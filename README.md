@@ -13,7 +13,7 @@ For example, the proper divisors of 15 (that is, the positive divisors of 15 tha
 * **An abundant number** is where the aliquot sum > number
   * 12 is an abundant number because (1 + 2 + 3 + 4 + 6) = 16
 * **A deficient number** is where the aliquot sum < number
-  * 8 is a deficient number because (1 + 2 + 4) = 
+  * 8 is a deficient number because (1 + 2 + 4) = 7
 
 ### Task ###
 
