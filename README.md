@@ -27,6 +27,8 @@ function getClassification($integer) {
 }
 ```
 
+Once you have created your function to check a perfect number, we would like you to create an API using HTTP and JSON to expose this functionality. You may structure the API in the way you see fit.
+
 ### Tips ###
 
 * Consider using TDD to build your function.
