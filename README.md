@@ -1,6 +1,7 @@
-# Perfect Number Challenge (PHP) #
+# Perfect Number Challenge #
 
 We would like you to write a function in PHP to determine whether a given number is [perfect](https://en.wikipedia.org/wiki/Perfect_number), [abundant](https://en.wikipedia.org/wiki/Perfect_number), or [deficient](https://en.wikipedia.org/wiki/Deficient_number). This is based on the classification scheme for natural numbers by [Nicomachus](https://en.wikipedia.org/wiki/Nicomachus).
+This should then be exposed via an API using HTTP&JSON to the user.
 
 ### Perfect, Abundant, and Deficient ###
 
@@ -17,7 +18,7 @@ For example, the proper divisors of 15 (that is, the positive divisors of 15 tha
 
 ### Task ###
 
-Write a function to determine whether a given number is perfect, abundant, or deficient.
+Write a function to determine whether a given number is perfect, abundant, or deficient:
 
 ```php
 <?php
