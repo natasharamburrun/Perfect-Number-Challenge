@@ -1,7 +1,7 @@
 # Perfect Number Challenge #
 
-We would like you to write a function in PHP to determine whether a given number is [perfect](https://en.wikipedia.org/wiki/Perfect_number), [abundant](https://en.wikipedia.org/wiki/Perfect_number), or [deficient](https://en.wikipedia.org/wiki/Deficient_number). This is based on the classification scheme for natural numbers by [Nicomachus](https://en.wikipedia.org/wiki/Nicomachus).
-This should then be exposed via an API using HTTP&JSON to the user.
+We would like you to write a function in JavaScript to determine whether a given number is [perfect](https://en.wikipedia.org/wiki/Perfect_number), [abundant](https://en.wikipedia.org/wiki/Perfect_number), or [deficient](https://en.wikipedia.org/wiki/Deficient_number). This is based on the classification scheme for natural numbers by [Nicomachus](https://en.wikipedia.org/wiki/Nicomachus).
+This should then be exposed via a GUI to the user.
 
 ### Perfect, Abundant, and Deficient ###
 
@@ -20,14 +20,13 @@ For example, the proper divisors of 15 (that is, the positive divisors of 15 tha
 
 Write a function to determine whether a given number is perfect, abundant, or deficient:
 
-```php
-<?php
-function getClassification($integer) {
+```javascript
+function getClassification(integer) {
     // returns 'perfect', 'abundant', or 'deficient'
 }
 ```
 
-Once you have created your function to check a perfect number, we would like you to create an API using HTTP and JSON to expose this functionality. You may structure the API in the way you see fit.
+Once you have created your function to check a perfect number, we would like you to create a web application to expose this functionality. You may style the application in the way you see fit.
 
 ### Tips ###
 
