@@ -30,6 +30,9 @@ Once you have created your function to check a perfect number, we would like you
 
 ### Tips ###
 
-* Consider using TDD to build your function.
-* Think about exceptions and error handling.
-* Can you refactor your code?
+When completing the task, please think about:
+
+- performance
+- exception handling
+- testing
+- documentation
