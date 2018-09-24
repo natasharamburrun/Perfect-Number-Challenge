@@ -8,7 +8,6 @@ $(() => {
   //global varibles
   const $form = $('.form');
   const $result = $('.result');
-  //enable submit function
 
   // function to find if a number is 'perfect', 'abundant', or 'deficient'
   function getClassification(integer) {
