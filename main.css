@@ -1,0 +1,21 @@
+* {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  color: #1f3147;
+}
+
+.content {
+  font-weight: bolder;
+  margin-top: 200px;
+  padding: 50px 50px;
+  border-radius: 25%;
+}
+
+.input {
+  max-width: 50px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}

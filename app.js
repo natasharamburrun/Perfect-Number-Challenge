@@ -6,30 +6,28 @@ console.log('js loaded');
 $(() => {
 
   //global varibles
-
   const $form = $('.form');
   const $result = $('.result');
-
   //enable submit function
 
-  $form.submit(function(e){
-    e.preventDefault();
-    const integer = $('.input').val();
-    $result.text(''+getClassification(integer));
-  });
-
+  // function to find if a number is 'perfect', 'abundant', or 'deficient'
   function getClassification(integer) {
-    // returns 'perfect', 'abundant', or 'deficient'
-    let i = 1, aliquotSum = 0;
-    // check each of the divisors. Can stop at int/2 for performance
+    var i = 1,
+      aliquotSum = 0;
     while(i < integer){
       if (integer % i === 0)
         aliquotSum = aliquotSum + i;
       i++;
     }
-    if (aliquotSum > integer) return `${integer} is a abundant number`;
-    else if (aliquotSum < integer) return `${integer} is a deficient number`;
+    if (aliquotSum < integer) return `${integer} is a deficient number`;
+    else if (aliquotSum > integer) return `${integer} is a abundant number`;
     else return `${integer} is a perfect number`;
+
   }
+  $form.submit(function(e){
+    e.preventDefault();
+    const integer = $('.input').val();
+    $result.text(''+getClassification(integer));
+  });
 
 });
