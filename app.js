@@ -21,7 +21,7 @@ $(() => {
     }
     if (aliquotSum < integer) return `${integer} is a deficient number`;
     else if (aliquotSum > integer) return `${integer} is a abundant number`;
-    else return `${integer} is a perfect number`;
+    return `${integer} is a perfect number`;
 
   }
   $form.submit(function(e){
