@@ -1,7 +1,7 @@
 console.log('js loaded');
 // perfect number = 6, 28, 496 or 8128
-// abundent number = 12, 18, 20, 24, 30, 36, 40, 42, 48, 54, 56, 60, 66, 70, 72, 78, 80, 84, 88, 90, 96
-// dificient number = 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 19, 21, 22, 23, 25, 26, 27, 29
+// abundent number = 12, 18, 20, 24, 30,
+// dificient number = 1, 2, 3, 4, 5, 7, 8
 
 $(() => {
 
