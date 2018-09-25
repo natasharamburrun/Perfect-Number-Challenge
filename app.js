@@ -11,6 +11,11 @@ $(() => {
 
   // function to find if a number is 'perfect', 'abundant', or 'deficient'
   function getClassification(integer) {
+
+    if (isNaN(integer) || (integer <= 0)) {
+      return 'Please input a greater number than 0!';
+    }
+
     var i = 1,
       aliquotSum = 0;
     while(i < integer){
@@ -18,10 +23,14 @@ $(() => {
         aliquotSum = aliquotSum + i;
       i++;
     }
-    if (aliquotSum < integer) return `${integer} is a deficient number`;
-    else if (aliquotSum > integer) return `${integer} is a abundant number`;
-    return `${integer} is a perfect number`;
 
+    if (aliquotSum < integer) {
+      return `Answer: ${integer} is a deficient number`;
+    } else if (aliquotSum > integer) {
+      return `Answer: ${integer} is an abundant number`;
+    } else {
+      return `Answer: ${integer} is a perfect number`;
+    }
   }
   $form.submit(function(e){
     e.preventDefault();
